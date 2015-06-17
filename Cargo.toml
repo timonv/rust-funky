@@ -1,4 +1,10 @@
 [package]
 name = "funky"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Timon Vonk <timonv@gmail.com>"]
+description = "Easily dispatch functions to a thread"
+homepage = "http://www.github.com/timonv/rust-funky"
+repository = "http://www.github.com/timonv/rust-funky"
+readme = "README.md"
+keywords = ["async","non-blocking"]
+license = "MIT"
