@@ -10,7 +10,7 @@ The macro returns a mpsc::Receiver on which you can block until you have the res
 Add to your `Cargo.toml`
 
 ```
-funky = *
+funky = "*"
 ```
 
 And run `cargo install`
