@@ -5,6 +5,9 @@ thread. The thread takes ownership of any arguments passed into the macro.
 
 The macro returns a mpsc::Receiver on which you can block until you have the result.
 
+*Don't use this in production code! These are native threads. This is just an exploration
+in macro usage.*
+
 # Installation
 
 Add to your `Cargo.toml`
